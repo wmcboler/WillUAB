@@ -22,9 +22,13 @@ header {
   width: 100%;
   position: fixed;
   top: 0px;
+  right: 0px;
+  left: 0px;
   background-color: rgb(204, 138, 0);
-  border: 3px solid black;
+  border: 1px solid black;
   z-index: 5;
+  overflow: hidden;
+  margin: auto;
 }
 #header_top {
   display: grid;
@@ -55,7 +59,7 @@ header img {
   margin: auto;
   text-align: center;
   font-size: 2rem;
-  border-right: 2px solid rgb(0, 99, 65);
+  border-right: 1px solid rgb(0, 99, 65);
 }
 #nav-bar span a {
   flex-grow: 1;
