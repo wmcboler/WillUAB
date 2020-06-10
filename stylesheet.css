@@ -1,0 +1,133 @@
+/* media query */
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 100%;
+  }
+  body img {
+    max-width: 100%;
+  }
+}
+
+/*universal */
+html {
+  background-image: url(IMG_0185.PNG);
+  background-repeat: no-repeat;
+  background-color: rgb(0, 99, 65);
+  color: rgb(204, 138, 0);
+}
+
+/* header area */
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(204, 138, 0);
+  border: 3px solid black;
+  z-index: 5;
+}
+#header_top {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+#header-img {
+  justify-self: left;
+}
+#header-img2 {
+  justify-self: right;
+}
+header img {
+  width: 9rem;
+  height: auto;
+}
+
+/* nav bar */
+
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+#nav-bar span {
+  flex-grow: 1;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  border-right: 2px solid rgb(0, 99, 65);
+}
+#nav-bar span a {
+  flex-grow: 1;
+  color: rgb(204, 138, 0);
+  text-decoration: none;
+  border-left: 1px solid black;
+}
+
+#nav-bar a:hover {
+  color: rgb(191, 13, 62);
+}
+
+/*main section */
+
+/* special in main section*/
+#special {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  width: 20%;
+  height: 8rem;
+  color: rgb(204, 138, 0);
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  opacity: 0.95;
+  max-width: 100%;
+  max-height: 100%;
+}
+#special h3 {
+  padding-left: 1rem;
+}
+#word {
+  color: rgb(191, 13, 62);
+}
+/* form in main section */
+
+#main_video {
+  height: 300px;
+}
+#vid {
+  opacity: 0.9;
+  position: relative;
+  bottom: 4rem;
+  height: 30rem;
+  max-height: 75%;
+}
+
+/* needed color info -------
+GREEN
+PANTONE: PMS 3425
+HTML/HEX COLOR: #006341
+RGB(0,99,65)
+CMYK: (0,0,0,100)
+
+GOLD
+PANTONE: PMS 131
+HTML/HEX COLOR: #CC8A00;
+RGB(204,138,0)
+CMYK: (2,39,100,10)
+
+BLACK
+PANTONE: PMS PROCESS BLACK
+HTML/HEX COLOR: #000000;
+RGB(0,0,0)
+CMYK: (0,0,0,100)
+
+RED
+PANTONE: PMS 193
+HTML/HEX COLOR: #BF0D3E;
+CMYK: (2,99,62,11)
+RGB(191,13,62)
+*/
