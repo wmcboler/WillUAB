@@ -6,6 +6,9 @@
   body img {
     max-width: 100%;
   }
+  #special{
+    visibility: hidden;
+  }
 }
 
 /*universal */
@@ -104,6 +107,8 @@ header img {
   display:inline-block;
   opacity: 0.9;
   max-height: 75%;
+  max-width:100%;
+  height:auto;
 }
 
 /* needed color info -------
