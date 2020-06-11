@@ -22,6 +22,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0px;
+  right:0%;
   background-color: rgb(204, 138, 0);
   border: 3px solid black;
   z-index: 5;
@@ -72,9 +73,6 @@ header img {
 
 /* special in main section*/
 #special {
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
   position: relative;
   top: 200px;
   left: 100px;
@@ -92,17 +90,17 @@ header img {
 }
 #word {
   color: rgb(191, 13, 62);
+  margin-top: -2rem;
 }
 /* form in main section */
 
 #main_video {
   height: 300px;
+  text-align:center;
 }
 #vid {
+  display:inline-block;
   opacity: 0.9;
-  position: relative;
-  bottom: 4rem;
-  height: 30rem;
   max-height: 75%;
 }
 
