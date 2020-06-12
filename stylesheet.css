@@ -14,6 +14,7 @@ html {
   background-repeat: no-repeat;
   background-color: rgb(0, 99, 65);
   color: rgb(204, 138, 0);
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* header area */
@@ -81,7 +82,7 @@ header img {
   box-shadow: 5px 5px 5px black;
   position: relative;
   top: 200px;
-  left: 100px;
+  left: 250px;
   width: 20%;
   height: 8rem;
   color: rgb(204, 138, 0);
@@ -108,7 +109,66 @@ header img {
   bottom: 4rem;
   height: 30rem;
   max-height: 75%;
+  box-shadow: 5px 5px 5px black;
 }
+/*about me section */
+
+.article {
+  background-color: black;
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  opacity: 0.95;
+  box-shadow: 5px 5px 5px black;
+}
+.article h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+  padding-top: 2rem;
+  color: rgb(191, 13, 62);
+}
+.article p {
+  padding: 0.5rem;
+  word-spacing: 0.3rem;
+  margin: 0 0.75rem;
+}
+/* gallery */
+
+#gallery {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.photo {
+  width: 35rem;
+  height: auto;
+  margin-top: 2rem;
+  box-shadow: 5px 5px 5px black;
+  opacity: 0.95;
+  border: 2px solid rgb(204, 138, 0);
+}
+/*
+#photo_1 {
+  grid-area: 1;
+}
+#photo_2 {
+  grid-area: 2;
+}
+#photo_3 {
+  grid-area: 3;
+}
+#photo_4 {
+  grid-area: 4;
+}
+#photo_5 {
+  grid-area: 5;
+}
+#photo_6 {
+  grid-area: 6;
+} */
 
 /* needed color info -------
 GREEN
